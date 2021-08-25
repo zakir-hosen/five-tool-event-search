@@ -1,0 +1,110 @@
+body {
+    margin: 0 ;
+    padding: 0 ;
+}
+/* event area starts */
+.next-arrow {
+    color: #6c737e;
+}
+.drop-box {
+    padding: 10px;
+}
+.next {
+    margin: 0 5px;
+    margin-right: 10px;
+}
+.down {
+    margin-left: 100px;
+    
+}
+.search  {
+    background-color: #5C5C5C;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 5px;
+}
+.search i {
+    color: #71FA4D;
+} 
+
+/* event area ends */
+
+/* upcoming events area starts */
+.date-time {
+    margin-right: 10px;
+    align-items: center;
+}
+.booking-area {
+    margin-top: 30px;
+
+}
+
+.line {
+    border-left: 2px solid #8A8A89;
+    height: 63px;
+    
+    
+}
+.line img {
+    margin: 10px;
+    width:80%;
+    align-items:center;
+    margin-top: -5px;
+}
+.sell {
+    margin-right: 20px;
+    align-items: center;
+}
+.sm-line {
+    border-left: 2px solid #8A8A89;
+    height: 50px;
+}
+.years a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    display: flex;
+}
+.green-text {
+    color: #71FA4D;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px){
+    .top-section {
+        margin-left:25%;
+    }
+   .search {
+       margin-left:15%;
+       width: 100px;
+   }
+   .line {
+    border-left: 0;
+    border-top: 1px solid black;
+   }
+   .events h4 {
+       margin-left: 25%;
+   }
+   .date-time {
+       margin-left: 45%;
+   }
+   .line img {
+       width: 20%;
+       margin-top: 5px;
+       margin-bottom: 50px;
+       margin-left: 40%;
+       justify-content: center;
+       display: flex;
+   }
+   .events h3 {
+       justify-content: center; 
+       display:flex; 
+   }
+   
+
+}
+
+    
